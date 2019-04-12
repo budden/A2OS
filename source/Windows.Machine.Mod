@@ -722,8 +722,8 @@ BEGIN
 		IGNORE Kernel32.CloseHandle(hfile)
 	END;
 
-	(*
-	(* ever used ? *)
+	(* YarRom: Code uncommented back, because it's usefull to have possibility
+		to use custom ini files throug "-ini" command line parameter *)
 	ParseLine(commandLine, userConfigFile);
 	userConfigFile[Kernel32.GetFullPathName (userConfigFile, Kernel32.MaxPath, userConfigFile, 0)] := 0X;
 
@@ -735,7 +735,7 @@ BEGIN
 	(* else trace is on kernel log *)
 	END;
 	Trace.String("Machine init done"); Trace.Ln;
-	*)
+
 END Init;
 
 	PROCEDURE {INITIAL, NOPAF} Start*;
