@@ -38,3 +38,7 @@ http://people.inf.ethz.ch/felixf/pdfs/2016_JSSP_OnTheDesignOfALockFreeScheduler.
 3. Follow instructions;
 4. Run corresponding commands.
 
+# Programming tutorials
+2009: Sven Stauber. A2 Component Framework
+https://github.com/yarrom/A2OS/blob/master/Docs/A2%20Component%20Framework.pdf
+
