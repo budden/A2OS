@@ -14,8 +14,20 @@ https://www.research-collection.ethz.ch/handle/20.500.11850/72739
 2006: Felix Friedrich, Jürg Gutknecht. Array-structured object types for mathematical programming
 http://people.inf.ethz.ch/felixf/pdfs/2006_ArrayStructuredOT.pdf
 
+2007: Felix Friedrich, Jürg Gutknecht, Oleksii Morozov, Patrick Hunziker. A Mathematical Programming Language Extension for Multilinear Algebra
+http://people.inf.ethz.ch/felixf/pdfs/2007_ProgrammingMultilinearAlgebra.pdf
+
+2011: Olivier Clerc, Felix Friedrich. Dynamic Operator Overloading in a Statically Typed Language
+http://people.inf.ethz.ch/felixf/pdfs/2011_DynamicOperatorOverloading.pdf
+
+2011: Felix Friedrich, Florian Negele. A Compiler-Supported Unification of Static and Dynamic Loading
+http://people.inf.ethz.ch/felixf/pdfs/2011_UnifiedStaticDynamicLoading.pdf
+
 2014: Florian Negele. Combining Lock-Free Programming with Cooperative Multitasking for a Portable Multiprocessor Runtime System
 https://www.research-collection.ethz.ch/handle/20.500.11850/154828
+
+2016: Florian Negele, Felix Friedrich, Suwon Oh, Bernhard Egger. On the Design and Implementation of an Efficient Lock-Free Scheduler
+http://people.inf.ethz.ch/felixf/pdfs/2016_JSSP_OnTheDesignOfALockFreeScheduler.pdf
 
 # How to build
 1. Open Builds.Tool from file manager;
