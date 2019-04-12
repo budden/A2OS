@@ -2,6 +2,9 @@
 
 
 # Related documents
+2002: Pieter Muller. The active object system design and multiprocessor implementation
+https://www.research-collection.ethz.ch/handle/20.500.11850/147091
+
 2003: Patrik Reali. Using Oberon’s active objects for language interoperability and compilation
 https://www.research-collection.ethz.ch/handle/20.500.11850/72831
 
@@ -30,7 +33,8 @@ https://www.research-collection.ethz.ch/handle/20.500.11850/154828
 http://people.inf.ethz.ch/felixf/pdfs/2016_JSSP_OnTheDesignOfALockFreeScheduler.pdf
 
 # How to build
-1. Open Builds.Tool from file manager;
-2. Follow instructions;
-3. Run corresponding commands.
+1. Create NewAos folder in Work folder
+2. Open Builds.Tool from file manager;
+3. Follow instructions;
+4. Run corresponding commands.
 
