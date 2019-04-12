@@ -33,7 +33,7 @@ https://www.research-collection.ethz.ch/handle/20.500.11850/154828
 http://people.inf.ethz.ch/felixf/pdfs/2016_JSSP_OnTheDesignOfALockFreeScheduler.pdf
 
 # How to build
-1. Create NewAos folder in Work folder
+1. Create NewAos folder in Work folder;
 2. Open Builds.Tool from file manager;
 3. Follow instructions;
 4. Run corresponding commands.
