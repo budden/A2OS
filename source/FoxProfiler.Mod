@@ -408,11 +408,11 @@ BEGIN
 	Init;
 END FoxProfiler.
 
-WMUtilities.Call --font=VeraMo FoxProfiler.Report ~
-WMUtilities.Call --font=VeraMo FoxProfiler.Report time ~
-WMUtilities.Call --font=VeraMo FoxProfiler.Report calls ~
-WMUtilities.Call --font=VeraMo FoxProfiler.Report name ~
-WMUtilities.Call --font=VeraMo FoxProfiler.Report brut ~
+WMUtilities.Call --font=NotoSansMono-Bold FoxProfiler.Report ~
+WMUtilities.Call --font=NotoSansMono-Bold FoxProfiler.Report time ~
+WMUtilities.Call --font=NotoSansMono-Bold FoxProfiler.Report calls ~
+WMUtilities.Call --font=NotoSansMono-Bold FoxProfiler.Report name ~
+WMUtilities.Call --font=NotoSansMono-Bold FoxProfiler.Report brut ~
 
 WMUtilities.Call --font=Courier FoxProfiler.Report time all ~
 

@@ -4234,7 +4234,7 @@ PROCEDURE EnsureAttribute(VAR attr : Texts.Attributes);
 BEGIN
 	IF (attr = NIL) THEN
 		NEW(attr); NEW(attr.fontInfo);
-		attr.fontInfo.name := "Vera";
+		attr.fontInfo.name := "Arimo-Regular";
 		attr.fontInfo.size := 16;
 		attr.fontInfo.style := {};
 		attr.color := 0000000FFH;

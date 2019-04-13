@@ -111,7 +111,7 @@ TYPE
 			Fill(0);
 			SetPointerInfo(manager.pointerCrosshair);
 			currentPointer := Pointer_Crosshair;
-			font := WMGraphics.GetFont(FontName, FontSize, {});
+			font := WMGraphics.GetFont("Arimo-Regular", FontSize, {});
 			IF (font # NIL) THEN canvas.SetFont(font); END;
 		END New;
 

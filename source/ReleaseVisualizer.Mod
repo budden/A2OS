@@ -472,7 +472,7 @@ TYPE
 
 		PROCEDURE Draw(canvas : WMGraphics.Canvas; dx, dy, fx, fy : LONGREAL);
 		BEGIN
-			canvas.SetFont(WMGraphics.GetFont("Vera", ENTIER(75 * fy + 0.5),  {}));
+			canvas.SetFont(WMGraphics.GetFont("Arimo-Regular", ENTIER(75 * fy + 0.5),  {}));
 			IF canvas IS PDF.PDFCanvas THEN canvas(PDF.PDFCanvas).PDFSetFont("Courier", ENTIER(75 * SHORT(fy)), {}) END;
 			canvas.DrawString(ENTIER(dx + aabb.l * fx), ENTIER(dy + (aabb.t + 75) * fy), title);
 		END Draw;
