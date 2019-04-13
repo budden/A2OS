@@ -32,6 +32,6 @@
 2009: [Sven Stauber. A2 Component Framework](Docs/A2%20Component%20Framework.pdf)
 
 # Known issues
-1. Steps to reproduce: Set backdrop "Saas Fee". Save desktop. Try to start A2 and immediately shutdown, and repeat it several times. Sometimes on startup hangup happens. Only with "Saas Fee" backdrop, which is the only in JPEG format. Seems like some problem with JPEG decoder.
+1. Steps to reproduce: Set backdrop "Saas Fee". Save desktop. Shutdown A2. Try to start A2 and immediately shutdown, and repeat it several times. Sometimes on startup hangup happens. Only with "Saas Fee" backdrop, which is the only in JPEG format. Seems like some problem with JPEG decoder.
 
 
