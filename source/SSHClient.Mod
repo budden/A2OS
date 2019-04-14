@@ -388,9 +388,9 @@ MODULE SSHClient; 	(** AUTHOR "G.F.";  PURPOSE "Secure Shell"; *)
 			VAR f: Files.File;
 			BEGIN
 				NEW(attr); attr.special := {};
-				f := Files.Old( "NotoSansMono-Bold.ttf" );
+				f := Files.Old( "AnonymousPro-Bold.ttf" );
 				IF f # NIL THEN
-					attr.fnt := WMG.GetFont( "NotoSansMono-Bold", 12, {0} )
+					attr.fnt := WMG.GetFont( "AnonymousPro-Bold", 12, {0} )
 				ELSE
 					attr.fnt := WMG.GetFont( "Courier", 12, {} )
 				END;
