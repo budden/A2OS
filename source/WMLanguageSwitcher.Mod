@@ -36,7 +36,9 @@ BEGIN
 
 END WMLanguageSwitcher.
 
-WMLanguageSwitcher.SetLanguage -l=ru ~
 WMLanguageSwitcher.SetLanguage -l=en ~
+WMLanguageSwitcher.SetLanguage -l=ru ~
+WMLanguageSwitcher.SetLanguage -l=uk ~
+WMLanguageSwitcher.SetLanguage -l=de ~
 
-System.Free WMLanguageSwitcher ~
+System.Free WMLanguageSwitcher WMClock ~
